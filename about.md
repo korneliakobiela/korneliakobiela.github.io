@@ -1,15 +1,24 @@
 ---
 layout: page
-title: About
+title: O mnie
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Cześć!
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+Pewnie chcesz wiedzieć, z kim masz do czynienia. Proszę bardzo.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Jestem programistką z zamiłowania, a niedługo jeszcze z zawodu.
+W przyszłym roku kończę studia pierwszego stopnia na kierunku Informatyka Stosowana.
+Poza tym z chęcią piszę kod w JS, Python i Javie.
+Mam fioła na punkcie kotów, kodu i Open Source.
+No dobra to tak technicznie, ale oprócz technologii mam jeszcze inne ciekawe hobby.
+Gram w gry planszowe i papierowe RPG. Wygląda na to, że jestem strasznym nerdem.
+No cóż, lubię spotykać się z przyjaciółmi i pograć przy stole, a nie przez internet.
+
+Gdzie można mnie spotkać?
+Aktualnie jeszcze w Bydgoszczy, gdzie czasem się pojawię na różnych eventach i meetupach związanych z softwarem. Czasami wyjeżdżam na większe konferencje, a także konwenty związane z szeroko pojętą fantastyką. Może się kiedyś spotkamy?
+
+Dobra i tak już za dużo gadam, niech więcej mówi za mnie moje konto w serwisie [Github](https://github.com/korneliakobiela). Pozdrawiam i idę knuć jakby tu przejąć władzę nad światem.
+
+Miau!
