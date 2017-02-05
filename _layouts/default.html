@@ -3,16 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width initial-scale=1">
-        <meta name="description"content="{{site.description}}">
-        <title>{{site.title}}</title>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand" rel="stylesheet">
+        <meta name="description" content="{{site.description}}">
+        <title>{{ page.title}} - {{site.title}}</title>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <link rel="stylesheet" href="/css/style.css">
         <link rel="icon" type="image/png" href="/favicon.png">
     </head>
     <body>
         <header class="main-header">
             <a href="{{"/" | relative_url}}"><h1>
-                <span><img src="/img/Logo.png" alt="Zielone logo z kotem"></span>
+                <span><img src="/img/Logo.png" alt=""></span>
             {{site.title}}</h1></a>
             <span class="menu-icon">
                 <svg viewBox="0 0 18 15" width="36px" height="30px">
@@ -21,24 +21,24 @@
       <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"></path>
     </svg>
             </span>
-            <nav class="main-nav">
+            <nav class="main-nav" role="navigation">
                 <ul>
                     <li><a href="/about">O mnie</a></li>
                     <li><a href="/bee-programmer">O projekcie</a></li>
                 </ul>
             </nav>
         </header>
-        <main>
+        <main class="main-content">
             {{content}}
         </main>
-        <footer>
+        <footer class="main-footer">
             <div class="footer-col footer-col-2">
-                <h5>Media społecznościowe</h5>
+                <h2>Media społecznościowe</h2>
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
-          </li>
+        </li>
           {% endif %}
 
           {% if site.twitter_username %}
@@ -52,5 +52,6 @@
         </footer>
          {% include analytics.html %}
          <script src="/js/main.js"></script>
+         <script id="dsq-count-scr" src="//kot-zrodlowy.disqus.com/count.js" async></script>
     </body>
 </html>
