@@ -20,7 +20,7 @@ comments: true
 <section class="post-content">
     {{ content }}
 </section>
-{% if page.comments %}
+{% if site.disqus.shortname %}
 <div id="disqus_thread"></div>
 <script>
 
