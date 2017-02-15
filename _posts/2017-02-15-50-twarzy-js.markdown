@@ -1,0 +1,17 @@
+﻿---
+layout: post
+title:  "50 twarzy JavaScript: 0. Wprowadzenie"
+date:   2017-02-15 16:21:27 +0100
+categories: javascript dajsiepoznac2017
+---
+Cześć, to znowu ja. Tym razem wymyśliłam, że zacznę serię artykułów. Z góry zapewniam, że będzie ich 50 (oprócz dzisiejszego), a ich tematyka to najbardziej uwielbiany i jednocześnie znienawidzony język programowania. Parafrazując klasyka ma języki dzielą się na te, na które wszyscy narzekają i te, w których nikt nie pisze. Trochę prawdy w tym jest. Javascript, bo o nim tu mowa, jest obecnie najbardziej popularnym językiem w galaktyce, a przynajmniej na Stack Overflow.
+
+Mimo wszystko wydaje mi się, że jest traktowany z pobłażaniem i pewnym uśmiechem przez poważnych programistów. No bo to taki język, w którym robi się padający śnieg na stronie www i zegarek. Prosty, szybki do nauki, a przy okazji z bardzo niskim progiem wejścia. Może tak było kiedyś, np. w czasach gdy powstał, a ja np. uczyłam się mówić „mama”. Mówiłam, że mam tyle samo lat, co JS? Można powiedzieć, że wspólnie się rozwijamy Obecnie jest to narzędzie do mające wiele zastosowań, bardzo szybko rozwijane i przede wszystkim bardzo fajne. Mimo wielu swoich dziwactw, po prostu uwielbiam pisać w JS.
+
+Dlatego postanowiłam napisać serię artykułów o nieco zaczepnym tytule. Co tu się będzie działo? W każdym odcinku serii jeden projekt, pokazujący ciekawe zastosowanie tego języka. Począwszy od tych najbardziej znanych i oczywistych, po te najdziwniejsze. Może z tej okazji nawet napiszę jakiś kawałek kodu. Postaram się pokazać coś fajnego i praktycznego, ale bez fajerwerków i nadmiaru mleka - bo będzie wam zbyt dobrze.
+
+Bo musicie wiedzieć, że JS to język, w którym można napisać niemalże wszystko ( a przynajmniej pokrywa się z większością popularnych zastosowań). I może to dziwne, ale najbardziej lubię ten język w zastosowaniach mniej tradycyjnych. W webie zazwyczaj jest nudno - naprawdę dużej strony nie robiłam, a w mniejszych ciągle to samo. Ale już cała logika plugin-u do przeglądarki, czy aplikacji desktopowej zdaje się wiele ciekawszą opcją. Po prostu lubię nowe wyzwania i pewnego rodzaju zabawę językiem. Dzisiaj nie będzie mięska - jakiegoś konkretu, bo tyle opcji, że nie wiedziałam od czego zacząć. Klęska urodzaju pro prostu.
+
+Ale spokojnie, już następnym razem się zdecyduję i ruszymy z kopyta... to znaczy z kociej łapki. Kto się nie może doczekać? I jakie jest najbardziej niecodzienne wykorzystanie JS-a?
+
+Miau!
