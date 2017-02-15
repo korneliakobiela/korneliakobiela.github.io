@@ -1,8 +1,8 @@
-﻿---
+---
 layout: post
-title:  "50 twarzy JavaScript: 0. Wprowadzenie"
+title:  "50 twarzy JS: 0. Wprowadzenie"
 date:   2017-02-15 16:21:27 +0100
-categories: javascript dajsiepoznac2017
+categories: news dajsiepoznac2017
 ---
 Cześć, to znowu ja. Tym razem wymyśliłam, że zacznę serię artykułów. Z góry zapewniam, że będzie ich 50 (oprócz dzisiejszego), a ich tematyka to najbardziej uwielbiany i jednocześnie znienawidzony język programowania. Parafrazując klasyka ma języki dzielą się na te, na które wszyscy narzekają i te, w których nikt nie pisze. Trochę prawdy w tym jest. Javascript, bo o nim tu mowa, jest obecnie najbardziej popularnym językiem w galaktyce, a przynajmniej na Stack Overflow.
 
