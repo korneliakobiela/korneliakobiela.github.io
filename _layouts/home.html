@@ -15,8 +15,8 @@ layout: default
                 <time datetime="{{post.date}}">{{post.date | date: "%d-%m-%Y"}}</time>
 
                 {% for category in post.categories %}
-                &diams;
-                <a href="{{ site.url }}{{ site.baseurl }}/feeds/{{ category }}.xml">
+                <img src="/img/cat-small.png"alt="" class="cat">
+                <a href="{{ site.url }}{{ site.baseurl }}/categories/{{ category }}">
                     {{ category }}
                 </a>
                 {% endfor %}
@@ -29,4 +29,9 @@ layout: default
         </li>
         {% endfor %}
     </ul>
+    <a href="{{"/feeds/feed.xml " |  relative_url }}" style="line-height:2em">
+      <img src="{{ "img/rss.png" | relative_url }}" alt="Subskrybuj"
+      title="Subskrybuj" style="width:1em;">
+      Subskrybuj
+    </a>
 </section>

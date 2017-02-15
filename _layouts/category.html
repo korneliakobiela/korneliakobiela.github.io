@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="home">
+
+  <h2 class="page-heading">Wpisy z kategorii {{ site.categories_names[ page.category ] | escape }}</h2>
+
+  {{ content }}
+     {% assign posts = site.categories[page.category] %}
+     {% include post-list.html %}
+    <a href="/feeds/{{ page.category }}.xml" style="line-height:2em">
+      <img src="{{ "img/rss.png" | relative_url }}" alt="Subskrybuj kategorię {{ page.category_name | escape }}"
+      title="Subskrybuj kategorię {{ page.category_name | escape }}" style="width:1em;">
+      Subskrybuj kategorię {{ page.category_name | escape }}
+    </a>
+  </p>
+
+</div>
