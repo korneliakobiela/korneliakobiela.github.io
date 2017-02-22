@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +8,17 @@
     text-decoration: none;
     list-style-type: none;
 }
-
+code, code span {
+    font-family: 'Anonymous Pro', monospace;
+    line-height: 1.2em;
+    background-color: #DCEDC8;
+}
+.highlighter-rouge {
+    background-color: #DCEDC8;
+    overflow-x: scroll;
+    box-sizing: border-box;
+    padding: 0.2em;
+}
 .main-header img {
     width: 50px;
 }
@@ -50,8 +61,9 @@ p, h2,h3,h4,h5,h6{
 .post-list-item-desc {
     padding: 0.5em 0;
 }
-.home a:hover {
+.home a:hover, .post a:hover {
     text-decoration: underline;
+    font-weight: bolder;
 }
 .cat {
     width: 1.2em;
