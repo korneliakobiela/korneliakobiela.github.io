@@ -2,7 +2,7 @@
 layout: post
 title:  "# 50 twarzy JS: 1. Baza danych w przeglądarce."
 date:   2017-02-22 16:21:27 +0100
-categories: javascript 
+categories: javascript
 ---
 
 
@@ -10,7 +10,7 @@ Dzisiaj wreszcie będzie "poważny" kontent - to, co tygryski lubią najbardziej
 
 Jednak przeglądarki oferują nam sporo więcej, bo bazę danych. Nie wierzysz? No to odpal Chromium i DevTools. Co ciekawe niejedną, a dwie różne - do wyboru, do koloru. Wielbiciele poleceń "SELECT", "CREATE", czy "DELETE" z pewnością już słyszeli o WebSQL. Alternatywą do niego jest, szczególnie dla fanów NoSQL (łapki w górę), IndexedDB - obiektowa baza danych, również w przeglądarce. Nie będę się na ten temat rozpisywać, znajdziecie sobie to na [MDN](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API). Nie jestem tutaj, żeby przepisywać dokumentację, więc sobie doczytacie.
 
-Moje małe odkrycie to przeglądarkowa implementacja CouchDB (o tej też pewnie kiedyś napiszę) o słodkiej nazwie [PouchDB](https://pouchdb.com/), która opiera się właśnie o wyżej wymienione technologie. Oczywiście link do dokumentacji jest podany, jakbyście chcieli zobaczyć całe API. Ja w sumie tylko krótkko pokażę na czym to polega i jak przyjemnie działa. Skoro najłatwiej tłumaczy się na przykładach, to co powiecie na krótki i prosty przykład z kodem? Myślę, że tak będzie najlepiej. Napiszę dla was prostą aplikację TODO. A nie czekaj, to miało być TOEAT - w końcu planowanie posiłków z wyprzedzeniem to niezwykle ważna sprawa. Oczywiście w artykule pokarzę tylko najciekawsze i najważniejsze kawałki kodu i przede wszystkim API Pouch. Oczywiście pełny i działający projekt można znaleźć na [GitHubie](https://github.com/korneliakobiela/sample-pouchdb).
+Moje małe odkrycie to przeglądarkowa implementacja CouchDB (o tej też pewnie kiedyś napiszę) o słodkiej nazwie [PouchDB](https://pouchdb.com/), która opiera się właśnie o wyżej wymienione technologie. Oczywiście link do dokumentacji jest podany, jakbyście chcieli zobaczyć całe API. Ja w sumie tylko krótko pokażę na czym to polega i jak przyjemnie działa. Skoro najłatwiej tłumaczy się na przykładach, to co powiecie na krótki i prosty przykład z kodem? Myślę, że tak będzie najlepiej. Napiszę dla was prostą aplikację TODO. A nie czekaj, to miało być TOEAT - w końcu planowanie posiłków z wyprzedzeniem to niezwykle ważna sprawa. Oczywiście w artykule pokażę tylko najciekawsze i najważniejsze kawałki kodu i przede wszystkim API Pouch. Oczywiście pełny i działający projekt można znaleźć na [GitHubie](https://github.com/korneliakobiela/sample-pouchdb).
 ## Tworzymy szkielet projektu
 
 Skoro nasz projekt jest pisany w technologiach webowych, to zaczniemy od podstaw - czyli szkieletu HTML. Czego potrzebujemy?
