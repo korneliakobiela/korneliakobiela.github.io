@@ -1,0 +1,21 @@
+---
+layout: null
+---
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{site.title}} {{category}}</title>
+    <description>Wpisy z kategorii Daj się poznać</description>
+    <link>{{ site.url }}</link>
+    {% for post in site.categories.linux %}
+      {% unless post.draft %}
+        <item>
+          <title>{{ post.title | xml_escape }}</title>
+          <description>{{ post.excerpt | default: '' | strip_html | normalize_whitespace | truncate: 200 | escape }}</description>
+          <pubdate>{{ post.date | date_to_xmlschema }}</pubdate>
+          <link>{{ post.url | prepend: site.url }}</link>
+          <guid ispermalink="true">{{ post.url | prepend: site.url }}</guid>
+        </item>
+      {% endunless %}
+    {% endfor %}
+  </channel>
+</rss>

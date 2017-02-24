@@ -49,10 +49,17 @@
           {% endif %}
         </ul>
       </div>
-
+<div class="fb-page footer-col-3" data-href="https://web.facebook.com/kotzrodlowy/" data-tabs="timeline" data-height="100" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"></div>
         </footer>
          {% include analytics.html %}
          <script src="/js/main.js"></script>
-
+         <div id="fb-root"></div>
+         <script>(function(d, s, id) {
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) return;
+           js = d.createElement(s); js.id = id;
+           js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.8";
+           fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));</script>
     </body>
 </html>

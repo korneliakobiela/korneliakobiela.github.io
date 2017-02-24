@@ -2,7 +2,7 @@
 layout: post
 title:  "Nie chcesz zainstalować Kali Linux na swoim komputerze."
 date:   2017-02-04 19:01:27 +0100
-categories: [linux,  dajsiepoznac2017]
+categories: linux,  dajsiepoznac2017
 ---
 Dzisiejszy post narodził się z pewnej potrzeby. Jestem osobą aktywną w sieci i społecznościach developerów. Niemal codziennie stykam się tam z osobami, które proszą o pomoc. Z chęcią udzielam tej pomocy i odpowiadam na pytania mniej doświadczonych kolegów. W końcu moje doświadczenie nie urosło jeszcze do rozmiarów potwora z szafy i pamiętam jak to jest być zielonym w jakiejś dziedzinie.
 

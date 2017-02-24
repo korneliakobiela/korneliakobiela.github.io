@@ -2,7 +2,7 @@
 layout: post
 title:  "No to ruszamy w drogę!"
 date:   2017-02-02 16:21:27 +0100
-categories: news dajsiepoznac2017
+categories: offtop dajsiepoznac2017
 ---
 ## Cześć!
 Witam Cię na moim blogu! Ludzie zazwyczaj się witają i piszą bardzo długie posty, o tym, jakie tematy poruszą na swoim blogu i dlaczego to właśnie ich masz czytać. Mnie nie musisz, obejdzie się. No przecież cię nie zmuszę, bo jestem zajęta knuciem mojego planu przejęcia władzy nad światem. Każdy kot tak robi.

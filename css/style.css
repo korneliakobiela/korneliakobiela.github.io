@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
 *{
     margin: 0;
     padding: 0;
-    font-family: Quicksand,sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: #101010;
-    font-weight: 400;
+    font-weight: 300;
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
@@ -37,6 +37,8 @@ main a, footer a {
 }
 footer{
     border-top: #8BC34A solid 1px;
+    display: flex;
+    justify-content: space-around;
 }
 p, h2,h3,h4,h5,h6{
     padding-bottom: 0.9em;
