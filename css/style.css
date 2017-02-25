@@ -57,7 +57,7 @@ h2,h3,h4,h5,h6{
 .post-list-item h3 a, .post-content h3{
     font-size: 1.4em;
     color: #33691E;
-    font-weight: 600;
+    font-weight: 500;
 }
 .post-content p {
     line-height: 1.6em;
