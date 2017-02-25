@@ -37,8 +37,6 @@ main a, footer a {
 }
 footer{
     border-top: #8BC34A solid 1px;
-    display: flex;
-    justify-content: space-around;
 }
 p, h2,h3,h4,h5,h6{
     padding-bottom: 0.9em;
@@ -123,6 +121,10 @@ h2,h3,h4,h5,h6{
     .post, .home {
         padding:3% 10%;
     }
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 @media (min-width:1080px) {
     .main-header, main, footer{
@@ -171,6 +173,9 @@ h2,h3,h4,h5,h6{
     main, footer{
         clear: both;
         padding: 5px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
     }
     .post {
         padding: 2%;
