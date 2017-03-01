@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600');
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: #101010;
-    font-weight: 300;
+    font-weight: 400;
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
+}
+body {
+    font-size: 1.1em;
 }
 code, code span {
     font-family: 'Anonymous Pro', monospace;
