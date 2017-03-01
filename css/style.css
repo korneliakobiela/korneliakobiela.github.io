@@ -35,6 +35,9 @@ main a, footer a {
     color: #388E3C;
     font-weight: 500;
 }
+main{
+font-size:1.2em;
+}
 .post-header{
     padding-bottom: 1em;
 }
