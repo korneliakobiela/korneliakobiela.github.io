@@ -72,7 +72,11 @@ h2,h3,h4,h5,h6{
 .post-list-item-desc {
     padding: 0.5em 0;
 }
-
+.post img{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
 .post ul li {
     list-style-type: disc;
     list-style-position: inside;
@@ -80,7 +84,6 @@ h2,h3,h4,h5,h6{
 }
 .home a:hover, .post a:hover {
     text-decoration: underline;
-    font-weight: bold;
 }
 .cat {
     width: 1.2em;

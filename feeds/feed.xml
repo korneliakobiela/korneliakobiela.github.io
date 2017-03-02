@@ -14,7 +14,6 @@ layout: null
           <description>{{ post.excerpt | default: '' | strip_html | normalize_whitespace | truncate: 200 | escape }}</description>
           <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
           <link>{{ post.url | prepend: site.url }}</link>
-          <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
         </item>
       {% endunless %}
     {% endfor %}
