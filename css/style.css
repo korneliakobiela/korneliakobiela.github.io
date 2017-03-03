@@ -33,7 +33,7 @@ code, code span {
 }
 main a, footer a {
     color: #388E3C;
-    font-weight: 500;
+    font-weight: 600;
 }
 main{
 font-size:1.2em;
@@ -45,23 +45,23 @@ footer{
     border-top: #8BC34A solid 1px;
 }
 p, h2,h3,h4,h5,h6{
-    padding-bottom: 0.9em;
+    padding-bottom:1em;
 }
 h2,h3,h4,h5,h6{
     font-weight: 500;
 }
 .page-title, .post-title {
-    font-size: 1.9em;
-    line-height: 1.8em;
+    font-size: 1.7em;
+    line-height: 1.3em;
 }
 .post-meta{
     border-bottom: #8BC34A solid 1px;
     margin-bottom: 1em;
 }
 .post-list-item h3 a, .post-content h3{
-    font-size: 1.4em;
+    font-size: 1.5em;
     color: #33691E;
-    font-weight: 500;
+    font-weight: 600;
 }
 .post-content p {
     line-height: 1.6em;
@@ -79,6 +79,11 @@ h2,h3,h4,h5,h6{
 }
 .post ul li {
     list-style-type: disc;
+    list-style-position: inside;
+    padding-bottom: 1em;
+}
+.post ol li {
+    list-style-type: decimal;
     list-style-position: inside;
     padding-bottom: 1em;
 }

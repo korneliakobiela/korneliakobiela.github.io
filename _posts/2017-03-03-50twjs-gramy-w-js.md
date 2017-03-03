@@ -9,7 +9,7 @@ Cześć! Pewnie zastanawiacie się, jak napisać grę w JS. Czy to w ogóle jest
 
 Trochę poszperałam w internetach i w oczy rzucił mi się [Phaser](http://phaser.io/). Wyglądał w miarę przyjeźnie i prosto, to pomyślałam "bierę". W sumie z programowaniem gier miałam trochę wspólnego na zajęciach, ale nigdy nie robiłam tego w JS, więc można powiedzieć, że to takie pierwsze starcie. Mam nadzieję, że nie masz nic przeciwko temu, że pouczymy się trochę razem? Bo zdradzę ci taki sekret. Wiem sporo, ale nie wszystko i cały czas się uczę. Ale ale, dosyć gadania, siadajmy do kodowania! (Czy teraz można powiedzieć, że kot wielkim poetą był?)
 
-# Co zrobimy?
+## Co zrobimy?
 
 To ma być jak zwykle prosty przykład (tylko nieliczni wiedzą, jak dużo czasu zajmuje zakodowanie go od zera, napisanie samego postu, to przy tym pikuś). Takich gierek jest sporo, a że pong mi się już trochę znudził, to postanowiłam napisać kopię Arkanoida. Mamy paletkę, piłkę i musimy zniknąć wszystkie klocki. Podłoga to lawa, więc jak nam piłka spadnie trzy razy, to przegrywamy. Proste jak drut.
 
@@ -19,7 +19,7 @@ To ma być jak zwykle prosty przykład (tylko nieliczni wiedzą, jak dużo czasu
 - Przykład będzie dość toporny, bo nie będzie animacji, ani dźwięku. Jeśli masz ciekawy pomysł na podkład dźwiękowy zawsze możesz dołożyć kawałek kodu do projektu. To w końcu Open Source.
 - Zastanawiam się po co mi ta kropka. Będzie na zapas.
 
-# Co ten kod?
+## Co ten kod?
 
 Niniejszym zaczynamy. Oczywiście najpierw potrzebujemy źródła naszego silnika. Można je pobrać z [tej strony](https://phaser.io/download/stable) albo zainstalować przez npm i później buildować projekt. O tym, jak to zrobić, napisano [tutaj](https://github.com/photonstorm/phaser#building-phaser). Jeśli już masz z czego korzystać, to możemy zacząć się bawić. Potrzebujesz prosty szablon HTML. Zakładam, że wiesz, jak to zrobić, więc przechodzę od razu do JS-a.
 
@@ -58,7 +58,7 @@ function update() {
 
 Wadą Phasera jest to, że przykładowe apki są napisane dość nieładnie. Pełno zmiennych w globalnym scope, a jak ktoś wydzieli sobie dodatkowe funkcje, zamiast robić spagetti - to już jest gość i magik programowania.
 
-# Aplikacja musi się przygotować
+## Aplikacja musi się przygotować
 
 Czyli bierzemy na tapetę funkcję preload. Co się musi stać, zanim te wszystkie wspaniałe przygody zostaną ukazane naszemu graczowi? Podpowiem ci, przydałoby się załadować wszystkie grafiki.
 
@@ -68,7 +68,7 @@ game.load.image('player', 'assets/player.png');
 
 Tak wygląda przykładowa funkcja do załadowania grafiki. Pierwszy parametr to nazwa assetu, drugi to ścieżka do niego. Nie ma tu żadnej filozofii. W ten sposób trzeba dodać każdą grafikę. To byłoby na tyle, jeśli chodzi o preload.
 
-# Do grania, gotowi, start!
+## Do grania, gotowi, start!
 
 Funkcja create służy nam do stworzenia całej sceny. Tu już będzie trochę więcej pracy. To tutaj określamy co nam się pokaże na ekranie, jak będzie działać, itp.
 
