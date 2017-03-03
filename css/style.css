@@ -17,12 +17,14 @@ code, code span {
     font-family: 'Anonymous Pro', monospace;
     line-height: 1.5em;
     background-color: #DCEDC8;
+    font-size: 0.9em;
 }
 .highlighter-rouge {
     background-color: #DCEDC8;
     overflow-x: scroll;
     box-sizing: border-box;
     padding: 0.2em;
+    margin: 1em 0;
 }
 .main-header img {
     width: 50px;
@@ -81,11 +83,13 @@ h2,h3,h4,h5,h6{
     list-style-type: disc;
     list-style-position: inside;
     padding-bottom: 1em;
+    line-height: 1.6em;
 }
 .post ol li {
     list-style-type: decimal;
     list-style-position: inside;
     padding-bottom: 1em;
+    line-height: 1.6em;
 }
 .home a:hover, .post a:hover {
     text-decoration: underline;

@@ -39,9 +39,9 @@ Te kilka linijek, to właściwie cała konfiguracja okna naszej gry. Ale teraz p
 4. Id rodzica - wartość atrybutu id elementu HTML, który ma przechowywać naszą grę. Jeśli zostawisz puste, element zostanie dodany pod koniec body.
 5. Trzy główne funkcje, na których będzie się opierać nasza gra.
 
-  1. preload - wszystko, co ma się stać przed załadowaniem gry
-  2. create - początkowy stan wyrenderowanej aplikacji
-  3. reload - wszystkie zmiany jakie zachodzą w aplikacji
+* preload - wszystko, co ma się stać przed załadowaniem gry
+* create - początkowy stan wyrenderowanej aplikacji
+* reload - wszystkie zmiany jakie zachodzą w aplikacji
 
 Oczywiście dalej podstawowa struktura aplikacji wygląda następująco.
 
