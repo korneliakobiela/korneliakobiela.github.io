@@ -2,7 +2,7 @@
 layout: post
 title:  "Gra o pszczołach. Co to będzie za projekt?"
 date:   2017-03-02 0:21:27 +0100
-categories: dajsiepoznac2017 offtop
+categories: dajsiepoznac2017 javascript
 ---
 Nastał wreszcie ten czas. Konkurs "Daj się poznać 2017" oficjalnie został rozpoczęty. Jeszcze do 13 marca można się zapisać, więc młody kocie - zachęcam do udziału, żebyś potem nie żałował. Czeka na ciebie wielka przygoda. To tak w ramach wstępu, ale ja dzisiaj o czym innym.
 ## Co ja zrobię?
