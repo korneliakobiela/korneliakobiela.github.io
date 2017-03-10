@@ -6,6 +6,7 @@ layout: null
     <title>{{site.title}} {{category}}</title>
     <description>Wpisy z kategorii Daj się poznać</description>
     <link>{{ site.url }}</link>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
     {% for post in site.categories.dajsiepoznac2017 %}
       {% unless post.draft %}
         <item>
