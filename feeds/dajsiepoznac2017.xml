@@ -1,22 +1,31 @@
 ---
 layout: null
+category: dajsiepoznac2017
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+      <link href="{{ site.url }}{{ site.baseurl }}/feeds/{{page.category | url_encode }}.xml" rel="self" type="application/atom+xml" />
     <title>{{site.title}} {{category}}</title>
-    <description>Wpisy z kategorii Daj się poznać</description>
-    <link>{{ site.url }}</link>
-    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <subtitle>Wpisy z kategorii Daj się poznać</subtitle>
+     <updated>{{ site.time | date_to_xmlschema }}</updated>
+      <id>{{ site.url }}{{ site.baseurl }}/{{page.category | url_encode }}</id>
+    <link href="{{ site.url }}"/>
     {% for post in site.categories.dajsiepoznac2017 %}
       {% unless post.draft %}
-        <item>
+         <entry>
           <title>{{ post.title | xml_escape }}</title>
-          <description>{{ post.excerpt | default: '' | strip_html | normalize_whitespace | truncate: 200 | escape }}</description>
-          <link>{{ post.url | prepend: site.url }}</link>
-          <guid>{{ post.url | prepend: site.url }}</guid>
-        </item>
+          {% if post.author %}
+    <author>
+      <name>{{ post.author | xml_escape }}</name>
+    </author>
+    {% endif %}
+          <published>{{ post.date | date_to_xmlschema }}</published>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+          <link href="{{ post.url | prepend: site.url }}"/>
+         <id>{{ site.url }}{{ site.baseurl }}{{ post.url }}</id>
+         <summary>{{ post.excerpt | default: '' | strip_html | normalize_whitespace | truncate: 160, "…" | xml_escape }}</summary>
+         <content type="html" xml:base="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.content | xml_escape }}</content>
+      </entry>
       {% endunless %}
     {% endfor %}
-  </channel>
-</rss>
+</feed>
