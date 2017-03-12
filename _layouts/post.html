@@ -9,12 +9,16 @@ comments: true
         <time datetime="{{page.date}}">
             {{ page.date | date: "%d-%m-%Y" }}
         </time>
-        {% for category in page.categories %}
-        <img src="/img/cat-small.png"alt="" class="cat">
-        <a href="{{ site.url }}{{ site.baseurl }}/categories/{{ category }}">
-            {{ category }}
-        </a>
-        {% endfor %}
+        <ul class="cat">
+            {% for category in page.categories %}
+            <li>
+                <a href="{{ site.url }}{{ site.baseurl }}/categories/{{ category }}">
+                    {{ category }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+
     </p>
 </header>
 <section class="post-content">

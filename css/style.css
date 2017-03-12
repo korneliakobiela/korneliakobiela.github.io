@@ -95,9 +95,7 @@ h2,h3,h4,h5,h6{
 .home a:hover, .post a:hover {
     text-decoration: underline;
 }
-.cat {
-    width: 1.2em;
-}
+
 @media  (min-width: 427px) {
     .main-nav{
         display: flex;
@@ -203,4 +201,8 @@ h2,h3,h4,h5,h6{
 }
 .hidden {
     display: none;
+}
+.cat {
+    display: flex;
+    list-style-image: url("/img/cat-small.png");
 }
