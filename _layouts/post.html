@@ -10,7 +10,7 @@ comments: true
             {{ page.date | date: "%d-%m-%Y" }}
         </time>
         {% for category in page.categories %}
-        &diams;
+        <img src="/img/cat-small.png"alt="" class="cat">
         <a href="{{ site.url }}{{ site.baseurl }}/categories/{{ category }}">
             {{ category }}
         </a>

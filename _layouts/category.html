@@ -7,12 +7,19 @@ layout: default
 
   {{ content }}
      {% assign posts = site.categories[page.category] %}
-     {% include post-list.html %}
     <a href="/feeds/{{ page.category }}.xml" style="line-height:2em">
       <img src="{{ "img/rss.png" | relative_url }}" alt="Subskrybuj kategorię {{ page.category_name | escape }}"
       title="Subskrybuj kategorię {{ page.category_name | escape }}" style="width:1em;">
       Subskrybuj kategorię {{ page.category_name | escape }}
     </a>
   </p>
+    {% for post in site.categories[page.category] %}
+        <h3><a href = "{{post.url}}">{{ post.title }}</a></h3>
 
+        <div class="post-list-item">
+            <p>{{ post.excerpt | default: '' | strip_html | normalize_whitespace | truncate: 200 | escape }}
+                <a href="{{ post.url }}"> Czytaj więcej</a>
+            </p>
+        </div>
+    {% endfor %}
 </div>
