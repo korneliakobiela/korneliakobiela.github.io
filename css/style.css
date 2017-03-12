@@ -205,4 +205,5 @@ h2,h3,h4,h5,h6{
 .cat {
     display: flex;
     list-style-image: url("/img/cat-small.png");
+    list-style-position: inside;
 }

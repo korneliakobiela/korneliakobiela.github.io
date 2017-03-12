@@ -13,13 +13,17 @@ layout: default
                     <a href="{{ post.url }}"> {{ post.title }}</a>
                 </h3>
                 <time datetime="{{post.date}}">{{post.date | date: "%d-%m-%Y"}}</time>
+<ul class="cat">
+    {% for category in post.categories %}
+    <li>
+        <a href="{{ site.url }}{{ site.baseurl }}/categories/{{ category }}">
+            {{ category }}
+        </a>
+    </li>
 
-                {% for category in post.categories %}
-                <img src="/img/cat-small.png"alt="" class="cat">
-                <a href="{{ site.url }}{{ site.baseurl }}/categories/{{ category }}">
-                    {{ category }}
-                </a>
-                {% endfor %}
+    {% endfor %}
+</ul>
+
             </header>
             <div class="post-list-item-desc">
                 <p>{{ post.excerpt | default: '' | strip_html | normalize_whitespace | truncate: 200 | escape }}
