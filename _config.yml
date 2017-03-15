@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kot-zrodlowy.pl" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: korneliakobiela
 github_username:  korneliakobiela
-timezone: Europe/Warsaw
+timezone: '+0100'
 disqus:
     shortname: kot-zrodlowy
 # Build settings
