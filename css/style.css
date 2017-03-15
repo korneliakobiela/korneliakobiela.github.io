@@ -176,7 +176,8 @@ h2,h3,h4,h5,h6{
         display: flex;
         float: left;
     }
-    .main-header h1 img {
+    .social-icon {
+        width: 40px;
     }
     .menu-icon {
         display: block;
