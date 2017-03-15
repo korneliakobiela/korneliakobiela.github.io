@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jak dogadać się z pszczołami?"
-date:   2017-03-15 0:21:27 +0100
+date:   2017-03-15 09:21:27 +0100
 categories: dajsiepoznac2017 javascript
 ---
 Cześć! Przychodzi taki czas w życiu każdego kota, że musi wziąć odpowiedzialność za swoje decyzje i raz wymyślony projekt zacząć realizować. Do tych co z niecierpliwośćią czekają na commity do mojego repo - zapowiadam, że nawet jakieś są, tylko na razie na drugiej gałęzi. Spokojnie wszystko i tak pięknie spłynie do mastera. W sumie, kto by pomyślał, że praca programisty sprowadza się do siedzenia na odpowiedniej gałęzi? Dobra, koniec suchych żartów i bierzemy się do pracy.
