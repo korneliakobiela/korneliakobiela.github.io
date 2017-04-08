@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2017-04-07 11:21:27 +0100
+date:   2017-04-08 11:21:27 +0100
 title: '# 50 Twarzy JS: 3.Jak napisać dodatek do przeglądarki'
 categories: dajsiepoznac2017 javascript
 ---
