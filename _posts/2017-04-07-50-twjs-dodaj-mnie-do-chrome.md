@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2017-04-07 11:21:27 +0100
-title: '# 50 Twarzy JS: Jak napisać dodatek do przeglądarki'
+title: '# 50 Twarzy JS: 3.Jak napisać dodatek do przeglądarki'
 categories: dajsiepoznac2017 javascript
 ---
 Cześć! To znowu ja. I zauważyłam, że dawno nie było waszej ulubionej serii. Skąd wiem, że ulubionej? Statystyki i wasze komentarze nie kłamią, więc wy też nie próbujcie. Dzięki wszystkim, którzy dopytywali i motywowali do pisania, sama bym się chyba teraz w sobie nie zebrała. Jesteście kochani. Za oknem wiosna, to koty szyją sukienki i spódnice, na spacery chodzą, biegają. A doba nie chce być z gumy i czasu na kodowanie i pisanie jakby mniej. Ale więcej grzechów nie pamiętam i proszę o wybaczenie. Obiecuję poprawę, tylko jeszcze nie wiem kiedy. Może od jutra. Ja tu piszę i piszę, a tymczasem mam ciekawy temat do pokazania.
