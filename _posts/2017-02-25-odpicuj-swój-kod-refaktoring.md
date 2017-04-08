@@ -32,7 +32,7 @@ Pozwolisz, że najpierw ci napiszę, o co w tym wszystkim chodzi. Bierzemy kawa�
 ```
 Jak widzisz, wygląda prawie jak zwykły komentarz blokowy. Różnią go tylko dwie gwiazdki na początku. W treści piszemy, za co odpowiada nasz kawałek kodu i zasadniczo, co ma robić. Taki opis powinien być krótki i zwięzły, a jednocześnie możliwie dokładny. Jeżeli czujesz, że nie jesteś w stanie opisać w kilku słowach, co ta funkcja robi, to znak, że robi za dużo i przydałoby się ją podzielić. O tym będzie dalej.
 
-Prawdziwa magia zaczyna się dopiero teraz. Poznasz kilka raguł do dokumentowania. Reguły to takie znaczniki poprzedzone znakiem `@`. Służą do bardziej formalnego opisu konkretnych elementów. Zapisujemy je w takiej notacji '@nazwatagu opis słowny' Lista podstawowych tagów.
+Prawdziwa magia zaczyna się dopiero teraz. Poznasz kilka reguł do dokumentowania. Reguły to takie znaczniki poprzedzone znakiem `@`. Służą do bardziej formalnego opisu konkretnych elementów. Zapisujemy je w takiej notacji '@nazwatagu opis słowny' Lista podstawowych tagów.
 ```js
 /**
  * @author - autor z imienia i nazwiska lub pseudonimu
