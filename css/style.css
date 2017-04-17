@@ -17,6 +17,18 @@ code, code span {
     line-height: 1.5em;
     font-size: 0.9em;
 }
+blockquote {
+    background: #DCEDC8;
+    border-left: solid #558B2F 5px;
+    margin-left: 1em;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8em;
+}
+blockquote p {
+    padding: 0;
+}
 .highlighter-rouge {
     background-color: #DCEDC8;
     overflow-x: scroll;
