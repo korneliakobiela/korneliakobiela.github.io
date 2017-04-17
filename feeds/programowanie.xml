@@ -4,9 +4,9 @@ layout: null
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{site.title}} {{category}}</title>
-    <description>Wpisy z kategorii Offtop</description>
+    <description>Wpisy z kategorii Programowanie</description>
     <link>{{ site.url }}</link>
-    {% for post in site.categories.offtop %}
+    {% for post in site.categories.programowanie %}
       {% unless post.draft %}
         <item>
           <title>{{ post.title | xml_escape }}</title>

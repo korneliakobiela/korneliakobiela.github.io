@@ -31,7 +31,9 @@ code, code span {
     color: #000;
     text-decoration: none;
 }
-
+.main-header {
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
 main a, footer a {
     color: #388E3C;
     font-weight: 600;
@@ -103,6 +105,9 @@ h2,h3,h4,h5,h6{
     .menu-icon{
         display: none;
     }
+    .social-icon {
+        width: 32px;
+    }
     .main-header, .main-header h1 {
         display: flex;
         justify-content: space-between;
@@ -110,6 +115,7 @@ h2,h3,h4,h5,h6{
         font-weight: 300;
         box-sizing: border-box;
     }
+
 
     .main-nav ul {
         display: flex;
