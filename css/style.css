@@ -25,6 +25,7 @@ blockquote {
     display: flex;
     align-items: center;
     margin-bottom: 0.8em;
+    font-style: italic;
 }
 blockquote p {
     padding: 0;
@@ -42,6 +43,10 @@ blockquote p {
 .main-header a {
     color: #000;
     text-decoration: none;
+}
+.main-header a:hover{
+    text-decoration: underline;
+    color: #212121;
 }
 .main-header {
       box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
