@@ -27,3 +27,4 @@ W tym miejscu mogłabym skorzystać wreszcie z jakiejś todo listy, ale z wami t
 A to tylko robota czysto developerska. Nie zliczę pewnie ilości testów, zmian koncepcji. Chociaż obiecuję się pochwalić, kiedy postanowię zaorać cały kod po raz dziesiąty. W takiej formie, nie do końca widzę grę, jako projekt mobilny - wprowadzanie danych byłoby zbyt trudne. Ale jeszcze zobaczymy. Oczywiście, bierzący postęp będę raportować tutaj, a także można go podejrzeć w repozytorium [GitHub](https://github.com/korneliakobiela/bee-programmer)
 
 Ja daję się poznać, a ty? Zrób mi konkurencję! Miau!
+
