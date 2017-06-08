@@ -2,7 +2,7 @@
 layout: post
 title: "50 twarzy JS: Grafika w JS"
 categories: programowanie javascript
-date: 2017-07-08 10:01:27 +0100
+date: 2017-06-08 10:01:27 +0100
 ---
 
 Cześć! Dzisiaj omówimy sobie mega temat. Jak to zwykle bywa w tej fajnej serii, to można się spodziewać kolejnego odjechanego i ciekawego zastosowania JS-a. Z tytułu już wiecie, że zajmiemy się grafiką i to w pojęciu nieco innym niż klasyczny canvas. Na jednych zajęciach w tym semestrze korzystaliśmy z oprogramowania [processing](https://processing.org/). Pozwala na mega uproszczone programowanie grafiki w językach takich jak Java (standardowo), Python, ale też w naszym kochanym JS. Dla niego jest specjalna biblioteka [p5](https://p5js.org/) . Na ich stronie można znaleźć informację:
@@ -52,7 +52,7 @@ function draw(){
 Nietrudno się domyślić, co one oznaczają. Dla porządku jednak wyjaśnię:
 
 *  setup - inicjalizacja środowiska, wywołuje sie ją raz, gdy aplikacja jest uruchamiana. 
-* draw - wywoływana bezpośrednio po setup i służy do rysowania elementów.
+*  draw - wywoływana bezpośrednio po setup i służy do rysowania elementów.
 
 Biblioteka jest tak bardzo uproszczona, że zmienne po prostu inicjujemy na początku programu. Potem używamy ich w odpowiednich miejscach. 
 
