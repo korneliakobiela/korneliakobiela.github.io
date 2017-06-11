@@ -6,7 +6,7 @@ comments: true
 <header class="post-header">
     <h2 class="post-title" >{{ page.title | escape }}</h2>
     <p class="post-meta">
-        <time datetime="{{page.date}}">
+        <time datetime="{{ page.date | date_to_xmlschema }}">
             {{ page.date | date: "%d-%m-%Y" }}
         </time>
         <ul class="cat">
