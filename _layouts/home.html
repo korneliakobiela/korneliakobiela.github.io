@@ -12,7 +12,7 @@ layout: default
                 <h3 >
                     <a href="{{ post.url }}"> {{ post.title }}</a>
                 </h3>
-                <time datetime="{{ page.date | date_to_xmlschema }}">{{post.date | date: "%d-%m-%Y"}}</time>
+                <time datetime="{{ post.date | date_to_xmlschema}}">{{post.date | date: "%d-%m-%Y"}}</time>
 <ul class="cat">
     {% for category in post.categories %}
     <li>
