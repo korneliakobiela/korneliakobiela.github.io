@@ -1,6 +1,6 @@
 ---
 Nhttp://kot-zrodlowy.pl/programowanie/2017/05/26/Tworzenie-bloga-w-Jekyll-poradnik-cz.1.html layout: post
-title "Wady i zalety hostowania strony na GitHubie"
+title: "Wady i zalety hostowania strony na GitHubie"
 date: 2017-06-14 12:35 +0100
 categories: programowanie
 ---
