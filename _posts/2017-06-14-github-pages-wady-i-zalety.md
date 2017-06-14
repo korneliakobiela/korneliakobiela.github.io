@@ -31,13 +31,13 @@ Jak już pisałam, WordPressa tutaj nie zainstalujesz. Tylko Jekyll. Jeśli ci t
 
 ## Własna Domena
 
-Możesz do strony na GH-Pages podpiąć własną domenę. Jest jeden mały kruczek. Jeśli przypiszesz domenę do strony użytkownika, to wszystkie woje projekty też będą pod tą domeną. Nie ma możliwości powrotu do standardowej domeny dla pojedynczych projektów, gdyż ta jest przypisywana do konta, a nie konkretnego repozytorium. 
+Możesz do strony na GH-Pages podpiąć własną domenę. Jest jeden mały kruczek. Jeśli przypiszesz domenę do strony użytkownika, to wszystkie Twoje projekty też będą pod tą domeną. Nie ma możliwości powrotu do standardowej domeny dla pojedynczych projektów, gdyż ta jest przypisywana do konta, a nie konkretnego repozytorium. 
 
 Nie miałam okazji sprawdzić, jak to jest, gdy własną domenę dopiszemy do strony projektu, jeśli wiesz więcej - daj znać w komentarzach.
 
 ## HTTPS
 
-Tak jest taka możliwość. Zostaje tylko jeden drobny kruczek. GitHub zezwala na włączenie HTTPS tylko pod warunkiem, że korzystamy ze standardowej domeny. Przy zmianie pozostaje nam zwykłe HTTP. To jak dotąd była największa niedogodność, z jaką się spotkałam. Dlaczego? Jak wiesz, piszę czasem jakieś dema dotyczące różnych js-owych technologi (cudowan seria 50 Twarzy JS) i przeglądarki obsługują część funkcjonalności już tylko po HTTPS. 
+Tak, jest taka możliwość. Zostaje tylko jeden drobny kruczek. GitHub zezwala na włączenie HTTPS tylko pod warunkiem, że korzystamy ze standardowej domeny. Przy zmianie pozostaje nam zwykłe HTTP. To jak dotąd była największa niedogodność, z jaką się spotkałam. Dlaczego? Jak wiesz, piszę czasem jakieś dema dotyczące różnych js-owych technologi (cudowan seria 50 Twarzy JS) i przeglądarki obsługują część funkcjonalności już tylko po HTTPS. 
 
 Udało mi się jednak obejść ten problem. Założyłam organizację [Kot Źródłowy](https://github.com/kot-zrodlowy) i od teraz wszystkie projekty będzie można obejrzeć pod kot-zrodlowy.github.io/nazwaprojektu
 
