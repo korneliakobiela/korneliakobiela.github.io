@@ -9,7 +9,7 @@ Cześć! Wracam szybko z kolejnym wpisem. Dzisiaj nie przedstawię kolejnego tut
 
 ## Słowo wstępu
 
-Tak GitHub zapewnia możliwość hostingu stron lub nawet całych blogów. Opublikował do tego nawet [dość obszerny tutorial](https://pages.github.com/), w którym znajdziesz informacje co i jak zrobić. W skrócie mamy do wyboru dwa rodzaje stron:
+Tak, GitHub zapewnia możliwość hostingu stron lub nawet całych blogów. Opublikował do tego nawet [dość obszerny tutorial](https://pages.github.com/), w którym znajdziesz informacje co i jak zrobić. W skrócie mamy do wyboru dwa rodzaje stron:
 
 * **Stronę użytkownika lub organizacji** na domenie nazwa-użytkownika.github.io
 * **Stronę dla projektu** na domenie nazwa-uzytkownika.github.io/nazwa-projektu
@@ -58,6 +58,3 @@ No to jest olbrzymia zaleta Jekylla, a nie tylko GH-Pages. Otwierasz swój ulubi
 Z pewnością nie wyczerpałam wszystkich możliwości, jeśli chodzi o cechy GH-pages. Nie jestem, też tobą, więc nie wiem, czego tak naprawdę potrzebujesz. Dlatego nie wiem, na ile to będzie przydatne dla ciebie. Jestem tak rozstrzepanym kotem, że na pewno o czymś zapomniałam. Zapraszam do dyskusji w komentarzach. Może właśnie ty podzielisz się czymś istotnym. 
 
 Miau!
-
-
-
