@@ -5,13 +5,13 @@ date: 2017-07-16 14:00 +0100
 categories: javascript programowanie
 ---
 
-Cześć! Nie, jeszcze nie zwariowałam. No dobra, może odrobinę, ale przez cza pisania tego bloga nic się nie zmieniło w tej kwestii. Ale tak, mam osobisty challenge na lato - nauczyć się VIM. To jest ten magiczny edytor, w którym początkujący generują losowy ciąg znaków, gdy chcą wyjść z programu. Ktoś pewnie spyta: Po co ci to? Przecież masz tyle fajnych nowoczesnych IDE, możesz zmieniać świat, ludzkość od kilkudziesięciu rozwija myszki, a ty się będziesz grzebać w terminalu tekstowym. 
+Cześć! Nie, jeszcze nie zwariowałam. No dobra, może odrobinę, ale przez czas pisania tego bloga nic się nie zmieniło w tej kwestii. Ale tak, mam osobisty challenge na lato - nauczyć się VIM. To jest ten magiczny edytor, w którym początkujący generują losowy ciąg znaków, gdy chcą wyjść z programu. Ktoś pewnie spyta: Po co ci to? Przecież masz tyle fajnych nowoczesnych IDE, możesz zmieniać świat, ludzkość od kilkudziesięciu lat rozwija myszki, a ty się będziesz grzebać w terminalu tekstowym. 
 
 Moja odpowiedź jest prosta. Mam taki kaprys. Jak na razie mi się podoba. Potem zobaczymy. Mogę pisać na FP moje postępy. Na razie jestem otoczona karteczkami z wypisywanymi mniej znanymi skrótami i poleceniami z klawiatury. Tego jest cała masa, a w momencie, gdy instalujesz pluginy, ta liczba rośnie.  Ale spokojnie, wszystko to tylko kwestia przyzwyczajenia.
 
 ## Vim jaki jest, każdy widzi.
 
-To jest dość mocno krzywdzące stwierdzenie, bo on ma znacznie więcej pod maską W tym dziesiątki poleceń do nawigacji po plikach, kopiowania, wpisywania i usuwania. Jednak wydaje się, że daleko mu możliwościami do współczesnych edytorów kodu. Nic bardziej mylnego. Po prostu działa on tak, żeby każdy mógł go odpowiednio dostosować do własnych potrzeb i predyspozycji. Mógłby zawierać wszystko w standardzie. Tylko wtedy dostajesz masę funkcjonalności, których tak naprawdę nigdy nie użyjesz. Ja osobiście wolę ideę pluginów, która pozwala zainstalować te funkcjonalności, których naprawdę potrzebuję.  Oprócz tego mam do dyspozycji całkiem sporo ustawień. A jakby tego było mało można samemu pisać skrypty i rozszerzenia. 
+To jest dość mocno krzywdzące stwierdzenie, bo on ma znacznie więcej pod maską. W tym dziesiątki poleceń do nawigacji po plikach, kopiowania, wpisywania i usuwania. Jednak wydaje się, że daleko mu możliwościami do współczesnych edytorów kodu. Nic bardziej mylnego. Po prostu działa on tak, żeby każdy mógł go odpowiednio dostosować do własnych potrzeb i predyspozycji. Mógłby zawierać wszystko w standardzie. Tylko wtedy dostajesz masę funkcjonalności, których tak naprawdę nigdy nie użyjesz. Ja osobiście wolę ideę pluginów, która pozwala zainstalować te funkcjonalności, których naprawdę potrzebuję.  Oprócz tego mam do dyspozycji całkiem sporo ustawień. A jakby tego było mało można samemu pisać skrypty i rozszerzenia. 
 
 ## Czego oczekujesz od nowoczesnego edytora
 
@@ -58,11 +58,11 @@ Kolejno oznaczają:
 * https://github.com/pangloss/vim-javascript - Wspracie dla kolorowania składni js, jsDoc itp.
 * https://github.com/itchyny/lightline.vim - Świetny pasek stanu
 * https://github.com/tpope/v-im-fugitive - wsparcie dla gita
-* https://github.com/Raimondi/delimitMate - parowanie nawiasów, znaczników i cucdzysłowów
+* https://github.com/Raimondi/delimitMate - parowanie nawiasów, znaczników i cucdzysłowówprz
 
 Przy każdym instalowanym pluginie czytaj dokumentację. Czasami potrzebne jest odpalenie skryptu instalującego.
 
- ## Motywy
+## Motywy
 
 W sieci znajdziesz ich mnóstwo. Moim ulubionym jest [Monokai](https://github.com/sickill/vim-monokai). Ale ty pewnie lubisz jakiś inny. Z pewnością go znajdziesz, a potem taki plik z motywem dodajesz do folderu ~/.vim/colors/, a plik .vimrc uzupełniasz o linijkę:
 
