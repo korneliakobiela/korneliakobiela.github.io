@@ -62,7 +62,7 @@ Kolejno oznaczają:
 
 Przy każdym instalowanym pluginie czytaj dokumentację. Czasami potrzebne jest odpalenie skryptu instalującego.
 
- ## Motywy
+## Motywy
 
 W sieci znajdziesz ich mnóstwo. Moim ulubionym jest [Monokai](https://github.com/sickill/vim-monokai). Ale ty pewnie lubisz jakiś inny. Z pewnością go znajdziesz, a potem taki plik z motywem dodajesz do folderu ~/.vim/colors/, a plik .vimrc uzupełniasz o linijkę:
 
