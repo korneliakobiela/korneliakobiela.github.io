@@ -5,7 +5,7 @@ date: 2017-08-20 15:30 +0100
 categories: programowanie javascript
 ---
 
-Cześć, dzisiaj przychodzę ze specjalnym postem. Obchodzimy 127 rocznicę urodzin Lovecrafta - ojca mitologii Cthulu. To właśnie dzięki niemu od długiego czasu rozbudzają wyobraźnię twórców gier i wiernych fanów tej twórczości. Z tej okazji powstała kolejna już część z przeuroczym demem. Kot przygotował tę aplikację razem z Tomkiem Jakutem znanym w sieci jako Comandeer ([tutaj możecie obczaić jego blog, jeśli go jeszcze jakimś cudem nie znacie](http://comandeer.github.io/blog)). Wiecie, jak dwóch takich nerdów spotka się na weekend, to powstają takie cuda. Tradycyjnie możecie je zobaczyć [tutaj](https://kot-zrodlowy.github.io/tentacles-generator). Co to robi? Przyozdabia wasze piękne buźki mackami. Można ściągnąć takie zdjęcie na swój komputer i ustawić dzisiaj na profilowe. Niech zrobi się zielono. Efekt może nie powala jakoś bardzo, ale wydaje mi się uroczy i wystarczający, żeby się czegoś nowego nauczyć. 
+Cześć, dzisiaj przychodzę ze specjalnym postem. Obchodzimy 127 rocznicę urodzin Lovecrafta - ojca mitologii Cthulhu. To właśnie dzięki niemu od długiego czasu macki rozbudzają wyobraźnię twórców gier i wiernych fanów tej twórczości. Z tej okazji powstała kolejna już część z przeuroczym demem. Kot przygotował tę aplikację razem z Tomkiem Jakutem znanym w sieci jako Comandeer ([tutaj możecie obczaić jego blog, jeśli go jeszcze jakimś cudem nie znacie](http://comandeer.github.io/blog)). Wiecie, jak dwóch takich nerdów spotka się na weekend, to powstają takie cuda. Tradycyjnie możecie je zobaczyć [tutaj](https://kot-zrodlowy.github.io/tentacles-generator). Co to robi? Przyozdabia wasze piękne buźki mackami. Można ściągnąć takie zdjęcie na swój komputer i ustawić dzisiaj na profilowe. Niech zrobi się zielono. Efekt może nie powala jakoś bardzo, ale wydaje mi się uroczy i wystarczający, żeby się czegoś nowego nauczyć. 
 
 ## Co ta aplikacja robi?
 
@@ -21,7 +21,7 @@ To jest główna zasada działania programu.  Oprócz tego potrzebujemy przygoto
 
 ## Co wykorzystamy w naszej pracy? 
 
-Jako, że zakładamy, że to jest demo i w normalnej pracy nigdy nikomu się ono nie przyda, używamy maksymalnie prostych narzędzi do stworzenia tej aplikacji. Wiąże się to z tym, że przy zbyt długim działaniu koci laptop zaczyna mocniej szumieć i udaje, że będzie odlatywał. Na pewno da się to dużo bardziej zoptymalizować, jednak w tym momencie nie o to tutaj chodzi. 
+Jako że zakładamy, że to jest demo i w normalnej pracy nigdy nikomu się ono nie przyda, używamy maksymalnie prostych narzędzi do stworzenia tej aplikacji. Wiąże się to z tym, że przy zbyt długim działaniu koci laptop zaczyna mocniej szumieć i udaje, że będzie odlatywał. Na pewno da się to dużo bardziej zoptymalizować, jednak w tym momencie nie o to tutaj chodzi. 
 
 * Ze względu na prostotę i wygodę, do obsługi grafiki i video użyliśmy znanej z jednego z poprzednich wpisów biblioteki p5 ([tutaj przeczytasz wpis o grafice](http://kot-zrodlowy.pl/programowanie/javascript/2017/06/08/50twjs-grafika-w-js.html))
 * Do rozpoznawania twarzy użyjemy biblioteki [clmtrackr](https://github.com/auduno/clmtrackr). To ona wie, gdzie na zdjęciu są usta i wyczynia tę całą magię.
