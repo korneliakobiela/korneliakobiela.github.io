@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Najczęstsze błędy początkujących (i nie tylko) webdeveloperów"
-categories: programowanie
+categories: goscinne programowanie
 date: 2017-09-11 23:08 +0200
 ---
 
