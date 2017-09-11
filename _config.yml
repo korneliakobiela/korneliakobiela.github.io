@@ -38,5 +38,6 @@ categories_names:
     'javascript': "JavaScript"
     'offtop': "Offtop"
     'programowanie': "Programowanie"
+    'goscinne': "Wpisy gościnne"
 feed:
     path:"/feeds/feed.xml"
