@@ -110,22 +110,15 @@ Jeśli wszystko zostanie poprawnie zrobione, to za chwilę powinieneś zobaczyć
 Skoro czytasz tego bloga, to jest bardzo prawdopodobne, że zajmujesz się frontendem. GitHub pozwala nie tylko pokazać kod naszego wspaniałego pierwszego projektu, ale również, udostępnić ją w sieci. Oczywiście, pod warunkiem, że mamy do czynienia ze stroną statyczną, czyli taką bez serwera i backendu. Jak to zrobić? To bardzo proste! 
 
 * Wchodzimy do repozytorium naszego projektu na GitHubie
-
 * Klikamy `settings `
-
 * Scrollujemy trochę w dół w poszukiwaniu sekcji `GitHub Pages`
-
 * W sekcji `source` wybieramy `branch master`
-
 * Klikamy `save`
-
 * W ciągu kilku chwil nasza strona będzie aktywna. 
-
 * Standardowo jej adres to:
-
-  ```http
-  https://twoja_nazwa_użytkownika.github.io/twoja_nazwa_projektu
-  ```
+```http
+https://twoja_nazwa_użytkownika.github.io/twoja_nazwa_projektu
+```
 
 Jeśli wszystko poszło w porządku, to powinieneś zobaczyć swoją stronę pod tym adresem.
 
