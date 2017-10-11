@@ -1,8 +1,8 @@
 ---
 layout: post
-categories: programowanie
 title: 'Korzystanie z Gita i GitHuba - poradnik na start'
 date: 2017-10-11 12:00 +0100
+categories: programowanie
 ---
 
 Cześć, Musicie mi wybaczyć moją niekonsekwencję w wypuszczaniu wpisów – ostatnio miałam sporo za dużo na głowie. Do tego stopnia, że wrześniowe przeziębienie przywitałam niemal jak wakacje (wiadomo, żeby się paskuda nie rozrosła, to warto trochę zwolnić i wyleżeć się w łóżku). Ale już wracam. Z racji tego, że aktualnie prowadzę warsztaty z podstaw JS w Bydgoszczy, mogą się w najbliższym czasie pojawić artykuły dla początkujących. Naczelna kocia zasada: jeśli coś przydało się raz, to może się przydać później wielu innym osobom. Dzisiaj będzie właśnie taki wpis z podstaw obsługi Gita i GitHuba. Bez zbędnych ceregieli zaczynamy.
