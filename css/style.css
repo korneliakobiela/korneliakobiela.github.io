@@ -242,3 +242,8 @@ h2,h3,h4,h5,h6{
     list-style-image: url("/img/cat-small.png");
     list-style-position: inside;
 }
+
+.pagination {
+	display: flex;
+	justify-content: space-between;
+}

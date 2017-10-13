@@ -22,6 +22,7 @@ url: "http://kot-zrodlowy.pl" # the base hostname & protocol for your site, e.g.
 twitter_username: korneliakobiela
 github_username:  korneliakobiela
 timezone: 'Europe/Warsaw'
+paginate: 8
 disqus:
     shortname: kot-zrodlowy
 # Build settings
@@ -29,6 +30,7 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock

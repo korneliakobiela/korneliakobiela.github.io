@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<section class="home">
+	<h2 class="page-title">
+		{{ page.title }}
+	</h2>
+	<ul class="post-list">
+		{% for post in paginator.posts %}
+		<li class="post-list-item">
+			<header>
+				<h3 >
+					<a href="{{ post.url }}"> {{ post.title }}</a>
+				</h3>
+				<time datetime="{{ post.date | date_to_xmlschema}}">{{post.date | date: "%d-%m-%Y"}}</time>
+				<ul class="cat">
+					{% for category in post.categories %}
+					<li>
+						<a href="{{ site.url }}{{ site.baseurl }}/categories/{{ category }}">
+							{{ category }}
+						</a>
+					</li>
+
+					{% endfor %}
+				</ul>
+
+			</header>
+			<div class="post-list-item-desc">
+				<p>{{ post.excerpt | default: '' | strip_html | normalize_whitespace | truncate: 200 | escape }}
+				<a href="{{ post.url }}"> Czytaj więcej</a>
+				</p>
+			</div>
+		</li>
+		{% endfor %}
+	</ul>
+	<div class="pagination">
+		{% if paginator.previous_page %}
+		<a href="{{ paginator.previous_page_path }}" class="previous">Poprzednia Strona</a>
+		{% endif %}
+		<span class="page_number ">Strona: {{ paginator.page }} / {{ paginator.total_pages }}</span>
+		{% if paginator.next_page %}
+		<a href="{{ paginator.next_page_path }}" class="next">Następna Strona</a>
+		{% endif %}
+	</div>
+	<a href="{{"/feeds/feed.xml " | relative_url }}" style="line-height:2em">
+		<img src="{{ "img/rss.png" | relative_url }}" alt="Subskrybuj"
+																								title="Subskrybuj" style="width:1em;">
+		Subskrybuj posty
+	</a>
+</section>
