@@ -1,5 +1,5 @@
 ---
-o layout: post
+layout: post
 title: 'Czy warto jeździć na konferencje IT?'
 date: 2017-09-22 21:00 +0100
 categories: programowanie offtop
