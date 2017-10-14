@@ -41,5 +41,6 @@ categories_names:
     'offtop': "Offtop"
     'programowanie': "Programowanie"
     'goscinne': "Wpisy gościnne"
+    'algorytmy': "Algorytmy i Struktury danych"
 feed:
     path:"/feeds/feed.xml"

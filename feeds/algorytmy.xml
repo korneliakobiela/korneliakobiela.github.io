@@ -1,0 +1,19 @@
+---
+layout: null
+---
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{site.title}} {{category}}</title>
+    <description>Wpisy z kategorii Algorytmy</description>
+    <link>{{ site.url }}</link>
+    {% for post in site.categories.algorytmy %}
+      {% unless post.draft %}
+        <item>
+          <title>{{ post.title | xml_escape }}</title>
+          <description>{{ post.excerpt | default: '' | strip_html | normalize_whitespace | truncate: 200 | escape }}</description>
+          <link>{{ post.url | prepend: site.url }}</link>
+        </item>
+      {% endunless %}
+    {% endfor %}
+  </channel>
+</rss>
