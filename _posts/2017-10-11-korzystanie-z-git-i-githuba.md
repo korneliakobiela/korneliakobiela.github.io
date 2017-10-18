@@ -116,12 +116,8 @@ Skoro czytasz tego bloga, to jest bardzo prawdopodobne, że zajmujesz się front
 * Klikamy `save`
 * W ciągu kilku chwil nasza strona będzie aktywna. 
 * Standardowo jej adres to:
-<<<<<<< HEAD
 
-```sh
-=======
 ```http
->>>>>>> 37db212e68884f1a2903ec120e167d140f113f39
 https://twoja_nazwa_użytkownika.github.io/twoja_nazwa_projektu
 ```
 
