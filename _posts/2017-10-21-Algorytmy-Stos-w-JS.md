@@ -47,7 +47,7 @@ class Stack {
   }
   
   isEmpty() {
-  	return this.length === 0;
+    return this.length === 0;
   }
   
   push( element ) {
@@ -55,7 +55,7 @@ class Stack {
   }
   
   pop() {
-    this.storage.pop();
+    return this.storage.pop();
   }
   
   clear() {
