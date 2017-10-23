@@ -62,7 +62,7 @@ class Stack {
     this.length = 0;
   }
   
-  length() {
+  getLength() {
     this.length = this.storage.length;
     return this.length;
   }
