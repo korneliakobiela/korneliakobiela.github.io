@@ -12,12 +12,12 @@ Jeżeli stworzyliśmy startowego bloga, to struktura katalogów nie jest zbyt sk
 ## Katalogi
 
 * _drafts/ - tutaj zapisujemy szkice naszych postów. Nie zostaną one opublikowane na stronie dopóki nie przeniesiemy ich do odpowiedniego katalogu
-* _includees/ - tutaj zapisujemy te części naszego layoutu, które często będą się powtarzać np. header, footer itp.
-* _layouts/ - tutaj zapisujemy pliki z szablonami określonych podstron na bloga - informacje o tym, w jaki sposób ma być pokazana treśź dajemy w nagłówku każdego pliku z treśćią
-* _posts/ - posty, które mają być opublikowane. Tutaj przenosimy też szkice, gdy są już gotowe do wyswietlenia
+* _includes/ - tutaj zapisujemy te części naszego layoutu, które często będą się powtarzać np. header, footer itp.
+* _layouts/ - tutaj zapisujemy pliki z szablonami określonych podstron na bloga - informacje o tym, w jaki sposób ma być pokazana treść dajemy w nagłówku każdego pliku z treścią
+* _posts/ - posty, które mają być opublikowane. Tutaj przenosimy też szkice, gdy są już gotowe do wyświetlenia
 * _data/ - pliki z danymi
-* _sass/ - tutaj możemy oswtylować naszą stronę plikami w formacie sass, co na gotowej stronie zostanie przekompilowane do CSS. Główny plik powinien się nazywać main.scss, a pozostałe być do niego dołączone
-* _site/ - To jest miejsze w którym nasza strona zostanie  wygenerowna - jeśli chcesz hostować na GH, to warto ten katalog dodać do pliku .gitignore
+* _sass/ - tutaj możemy ostylować naszą stronę plikami w formacie sass, co na gotowej stronie zostanie przekompilowane do CSS. Główny plik powinien się nazywać main.scss, a pozostałe być do niego dołączone
+* _site/ - To jest miejsce w którym nasza strona zostanie wygenerowna - jeśli chcesz hostować na GH, to warto ten katalog dodać do pliku .gitignore
 
 ## Konfiguracja bloga
 
